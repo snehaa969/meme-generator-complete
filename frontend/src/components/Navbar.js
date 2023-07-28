@@ -59,11 +59,11 @@ const Navbar = () => {
 					Meme Generator
 				  </NavLink>
 				</li>
-				<li className="nav-item">
+				{/* <li className="nav-item">
 				  <NavLink className="nav-link" to="/publish">
 					Publish
 				  </NavLink>
-				</li>
+				</li> */}
 			  </ul>
 			  {/* Left links */}
 			</div>

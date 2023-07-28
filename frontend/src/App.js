@@ -20,7 +20,7 @@ function App() {
           <Route path="Signup" element={<Signup />} />
           {/* <Route path="generator" element={<Generator />} /> */}
           <Route path="memegenerator" element={<MemeGenerator />} />
-          <Route path="publish" element={<Publish />} />
+          {/* <Route path="publish" element={<Publish />} /> */}
         </Routes>
       </BrowserRouter>
     </div>

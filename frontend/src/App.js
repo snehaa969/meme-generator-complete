@@ -7,6 +7,7 @@ import Signup from "./components/Signup";
 import Navbar from "./components/Navbar";
 import MemeGenerator from "./components/MemeGenerator";
 import Publish from "./components/Publish";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="Signup" element={<Signup />} />
           {/* <Route path="generator" element={<Generator />} /> */}
           <Route path="memegenerator" element={<MemeGenerator />} />
+          <Route path="contactus" element={<ContactUs />} />
           {/* <Route path="publish" element={<Publish />} /> */}
         </Routes>
       </BrowserRouter>

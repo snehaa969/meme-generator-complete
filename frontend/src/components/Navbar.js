@@ -59,6 +59,11 @@ const Navbar = () => {
 					Meme Generator
 				  </NavLink>
 				</li>
+				<li className="nav-item">
+				  <NavLink className="nav-link" to="/contactus">
+					Contact Us
+				  </NavLink>
+				</li>
 				{/* <li className="nav-item">
 				  <NavLink className="nav-link" to="/publish">
 					Publish
